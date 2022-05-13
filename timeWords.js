@@ -61,7 +61,6 @@ const timeWords = (time) => {
   let ten = minute.split("");
   ten[0] = parseInt(ten[0]);
   ten[1] = parseInt(ten[1]);
-  console.log(ten);
   if (hour === 12) {
     timeStr += hours[0];
   } else {
@@ -85,4 +84,4 @@ const timeWords = (time) => {
   return timeStr;
 };
 
-console.log(timeWords("21:09"));
+console.log(timeWords("23:09"));
